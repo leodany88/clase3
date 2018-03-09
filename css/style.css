@@ -1,0 +1,92 @@
+body{
+    margin : 0;
+    font-size: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: #212121;
+}
+nav{
+    padding: 2%;
+    background: #00796b;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,.5);
+}
+.brand{
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, .5);
+    font-size: 1.6rem;
+}
+.brand a{
+
+    color:#FF9800;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.nav p{
+    margin: 0% 4%;
+    border-bottom: solid 2px #FF9800;
+    height: 40%;
+}
+.text{
+    padding: 2%;
+    /* background: #bdbdbd; */
+    width: 100%;
+    color:#757575;
+
+}
+.text div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+.text h2{
+
+
+}
+.text p{
+    font-size: 1.8rem;
+
+    color:#212121;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 1);
+}
+.cards{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-top: 3%;
+    background: #b2dfdb;
+    width: 100%;
+    padding: 3%;
+}
+.card{
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,.5);
+    background: #009688;
+    padding:2% 1%;
+}
+.card h3{
+    color: white;
+    text-shadow: 3px 3px 3px rgba(117,117,117, 1);
+    text-align: center;
+    border-bottom: solid 1px #bdbdbd;
+    box-shadow: 0px 3px 5px 0px rgba(255,152,0,.5);
+}
+.card li{
+    color: white;
+}
+.card h2{
+    color:#FF9800;
+    text-shadow: 2px 2px 3px rgba(0,0,0, .45);
+}
